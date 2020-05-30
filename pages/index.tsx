@@ -111,8 +111,9 @@ export default function Index() {
                 WEB APP & MOBILE APP DEVELOPMENT
               </Typography>
               <p>
-                Specializing in ReactJS/PHP Web development. If you're a business seeking a web presence or are looking to hire, contact me 
+                Specializing in ReactJS/PHP Web development. If you're a business seeking a web presence or are looking to hire, <a style={{color: '#fff', fontWeight: 'bold'}} href="#touch">contact me</a>
               </p>
+              <Button style={{marginTop: 16}} variant="contained" color="secondary" href="#pricing">Get Started</Button>
             </Container>
           </div>
         </section>
@@ -122,7 +123,7 @@ export default function Index() {
              <Grid container spacing={2}>
                <Grid item sm={12} md={4} style={{paddingTop: 32}}>
                   <Container className={classes.service}>
-                    <WebIcon color='secondary' fontSize='inherit' />
+                    <WebIcon color='primary' fontSize='inherit' />
                     <Typography variant="h6" component="h2">
                       DESIGN + DEVELOPMENT
                     </Typography>
@@ -133,7 +134,7 @@ export default function Index() {
                </Grid>
                <Grid item sm={12} md={4} style={{paddingTop: 32}}>
                   <Container className={classes.service}>
-                    <MobileFriendlyIcon color='secondary' fontSize='inherit' />
+                    <MobileFriendlyIcon color='primary' fontSize='inherit' />
                     <Typography variant="h6" component="h2">
                       Mobile-friendly
                     </Typography>
@@ -144,7 +145,7 @@ export default function Index() {
                </Grid>
                <Grid item sm={12} md={4} style={{paddingTop: 32}}>
                   <Container className={classes.service}>
-                    <ShoppingCartIcon color='secondary' fontSize='inherit' />
+                    <ShoppingCartIcon color='primary' fontSize='inherit' />
                     <Typography variant="h6" component="h2">
                       ECOMMERCE
                     </Typography>
